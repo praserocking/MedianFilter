@@ -13,7 +13,7 @@ import javax.imageio.*;
  */
 class MedianFilter{
     public static void main(String[] a)throws Throwable{
-        File f=new File("photo.jpg");
+        File f=new File("photo.jpg");                               //Input Photo File
         Color[] pixel=new Color[9];
         int[] R=new int[9];
         int[] B=new int[9];
